@@ -8,7 +8,7 @@ This repository demonstrates a polling client for a simulated video translation 
 - Provide callbacks for real-time updates.
 - Prevents indefinite waits and excessive polling
 
-## Steps to Run
+## Steps to Run Test
 
 1. **Install dependencies:**
    ```bash
@@ -17,3 +17,19 @@ This repository demonstrates a polling client for a simulated video translation 
 2. **Running Tests:**
    ```bash
    pytest -s integration_test.py
+
+## Steps to Run Library
+
+1. **Import Library:**
+   ```bash
+   import NamastegenClient
+
+2. **Initializing Client:**
+   ```bash
+   NamastegenClient(base_url="http://localhost:8080", timeout=30)
+
+3. **Getting Status:**
+   ```bash
+   client.poll_status(callback=callback)
+
+
