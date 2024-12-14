@@ -2,10 +2,10 @@
 
 ## Overview
 
-This repository demonstrates a polling client for a simulated video translation job. It does:
+This repository demonstrates a polling client for a simulated video translation job :
 
-- Implement exponential backoff to reduce load.
-- Provide callbacks for real-time updates.
+- Implemented exponential backoff to reduce load.
+- Providing callbacks for real-time updates.
 - Prevents indefinite waits and excessive polling
 
 ## Steps to Run Test
