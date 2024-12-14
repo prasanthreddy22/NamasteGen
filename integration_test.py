@@ -9,8 +9,8 @@ def test_server():
     # Giving base environments
     # setting error probability for server
     env = os.environ.copy()
-    env["JOB_DELAY"] = "15"        # The job completes after 5 seconds
-    env["ERROR_PROBABILITY"] = "0.2"  # 20% chance of error
+    env["JOB_DELAY"] = "15"        # The job completes after 15 seconds
+    env["ERROR_PROBABILITY"] = "0.2"  # 20% chance of error, to simulate error of server
 
     # Starting server
     server_proc = subprocess.Popen(["python", "server/server.py"], env=env)
