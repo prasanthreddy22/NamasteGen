@@ -1,4 +1,4 @@
-# Server and Client Example
+# Hey (also called as Namaste in Hindi!) Gen. 
 
 ## Overview
 
